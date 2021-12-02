@@ -171,6 +171,10 @@ body {
   letter-spacing: 0.03em;
   color: var(--third-text-color);
 }
+.footer-contact:focus,
+.footer-contact:hover {
+  color: var(--accent-color);
+}
 
 /* -----------------------PORTFOLIO------------------- */
 .btn-item {
