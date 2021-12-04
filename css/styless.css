@@ -68,12 +68,13 @@ body {
 
 .hero {
   background-color: var(--dark-background-color);
+  text-align: center;
 }
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+
   letter-spacing: 0.06em;
   color: var(--white-text-color);
 }
@@ -84,7 +85,6 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -110,6 +110,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  color: var(--first-text-color);
 }
 .about-list-text {
   font-size: 14px;
@@ -125,6 +126,7 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--first-text-color);
 }
 
 /* ----------------team------------- */
@@ -137,6 +139,7 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--first-text-color);
 }
 .team-list-title {
   font-weight: 500;
@@ -144,12 +147,14 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--first-text-color);
 }
 .team-list-text {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--second-text-color);
 }
 /* ----------footer----------- */
 .footer {
@@ -178,6 +183,7 @@ body {
 
 /* -----------------------PORTFOLIO------------------- */
 .btn-item {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
